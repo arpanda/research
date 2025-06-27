@@ -24,13 +24,25 @@
             <h2>Tools</h2>
             <div class="tool">
                 <h3>CNVpytor</h3>
-                <p>[CNVpytor Description Here]</p>
-                <p><a href="#">[Link to CNVpytor]</a></p>
+                <p>A python based application for Copy Number Variation(CNV) analyis for short read sequencing data. It has multiple caller to call CNV.
+                    <ul> 
+                        <li> Meanshift caller: Uses Read depth to call CNV</li>
+                        <li> 2D caller: Uses both read depth and Bi-allele frequency to call CNV
+                    </ul>
+                </p>
+                <p><a href="https://github.com/abyzovlab/CNVpytor">GitHub</a></p>
             </div>
             <div class="tool">
+                <h3>CNVpytor Track in igv.js</h3>
+                <p>The track in igv.js that utilizes CNVpytor produced pytor file and whole genome variant files as input for on-the-fly read depth and BAF visualization, CNV/CNA calling and analysis. Embedding into HTML pages and Jupiter Notebooks enables convenient remote data access and visualization simplifying interpretation and analysis of omics data.
+                </p>
+                <p><a href="https://igv.org/doc/igvjs/#tracks/CNVPytor/">Track Info</a></p>
+            </div>
+
+            <div class="tool">
                 <h3>GAL</h3>
-                <p>[GAL Description Here]</p>
-                <p><a href="#">[Link to GAL]</a></p>
+                <p>Genome Annotator Light(GAL) is a docker based package for genome analysis and data visualization. GAL integrated several existing tools and in-house programs inside a Docker Container for systematic analysis and visualization of genomes through web browser. GAL takes varieties of input types ranging from raw Fasta files to fully annotated files, processes them through a standard annotation pipeline and visualizes on a web browser. Comparative genomic analysis is performed automatically within a given taxonomic class. GAL creates interactive genome browser with clickable genomic feature tracks; local BLAST-able database; query page, on-fly downstream data analysis using EMBOSS etc</p>
+                <p><a href="https://github.com/computational-genomics-lab/GAL">[Link to GAL]</a></p>
             </div>
         </section>
     </main>
