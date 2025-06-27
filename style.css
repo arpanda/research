@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent dark header */
+    background-color: rgba(184, 219, 232, 0.8); /* Semi-transparent dark header */
     color: #fff;
     padding: 1.5em 0;
     text-align: center;
@@ -21,7 +21,7 @@ header {
 }
 
 nav {
-    background-color: rgba(68, 68, 68, 0.9); /* Semi-transparent dark nav */
+    background-color: rgba(189, 208, 229, 0.9); /* Semi-transparent dark nav */
     padding: 0.7em 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
@@ -121,7 +121,6 @@ footer {
     background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent dark footer */
     color: #fff;
     text-align: center;
-    padding: 1em 0;
     position: relative; /* Change to relative or remove if content is long */
     bottom: 0;
     width: 100%;
@@ -173,7 +172,7 @@ header {
 }
 
 nav {
-    background-color: #444;
+    background-color: #11487f;
     color: #fff;
     padding: 0.5em 0;
 }
@@ -201,10 +200,9 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background-color: #11487f;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
     position: fixed;
     bottom: 0;
     width: 100%;
