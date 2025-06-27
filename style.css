@@ -1,12 +1,165 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("https://www.genome.gov/sites/default/files/styles/full/public/tg/illustrations/DNA_double_helix_-_flat_vector_illustration.jpg");
+    background-color: #f0f2f5; /* Light gray background */
+    color: #333;
+    line-height: 1.6;
+    background-image: url('https://images.unsplash.com/photo-1547489402-cd4052112f97?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* New genomic background */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: #333;
+    background-position: center center;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent dark header */
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+nav {
+    background-color: rgba(68, 68, 68, 0.9); /* Semi-transparent dark nav */
+    padding: 0.7em 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* Use inline-block for better spacing control */
+    margin: 0 1.5em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em 0;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #a0d9ff; /* Lighter blue on hover */
+}
+
+main {
+    padding: 2em;
+    max-width: 960px; /* Max width for content */
+    margin: 2em auto; /* Center content and add vertical margin */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for content */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: left; /* Align text left within main content */
+}
+
+.research-area {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.research-area:hover {
+    transform: translateY(-5px);
+}
+
+.research-area h3 {
+    color: #3498db; /* Blue for research area titles */
+    margin-top: 0;
+}
+
+.research-area p {
+    text-align: justify; /* Justify paragraphs */
+    margin-left: 10px; /* Add space for picture */
+    margin-right: 10px;
+}
+
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.intro-section p {
+    flex: 1;
+    text-align: justify;
+    padding-right: 20px; /* Space for potential image */
+}
+
+.contact-details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-top: 2em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact-details h3 {
+    color: #3498db;
+    margin-top: 0;
+}
+
+h1, h2, h3 {
+    color: #2c3e50; /* Darker heading color */
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent dark footer */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative; /* Change to relative or remove if content is long */
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
+
+/* Tool specific styling */
+.tool {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.tool:hover {
+    transform: translateY(-5px);
+}
+
+.tool h3 {
+    color: #3498db; /* Blue for tool titles */
+    margin-top: 0;
+}
+
+.tool p {
+    margin-bottom: 1em;
+}
+
+.tool a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.tool a:hover {
+    text-decoration: underline;
 }
 
 header {

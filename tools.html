@@ -7,16 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Arijit Panda</h1>
-        <p>Computational Biologist</p>
-    </header>
+
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="research.html">Research</a></li>
             <li><a href="tools.html">Tools</a></li>
             <li><a href="publications.html">Publications</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            
         </ul>
     </nav>
     <main>
@@ -24,25 +22,19 @@
             <h2>Tools</h2>
             <div class="tool">
                 <h3>CNVpytor</h3>
-                <p>A python based application for Copy Number Variation(CNV) analyis for short read sequencing data. It has multiple caller to call CNV.
-                    <ul> 
-                        <li> Meanshift caller: Uses Read depth to call CNV</li>
-                        <li> 2D caller: Uses both read depth and Bi-allele frequency to call CNV
-                    </ul>
-                </p>
-                <p><a href="https://github.com/abyzovlab/CNVpytor">GitHub</a></p>
+                <p>CNVpytor is a tool for CNV detection and analysis from depth-of-coverage and B-allele frequency data. It provides a comprehensive set of features for visualizing, analyzing, and interpreting CNVs.</p>
+                <p><a href="https://github.com/abyzovlab/CNVpytor" target="_blank">Learn more about CNVpytor</a></p>
             </div>
             <div class="tool">
                 <h3>CNVpytor Track in igv.js</h3>
                 <p>The track in igv.js that utilizes CNVpytor produced pytor file and whole genome variant files as input for on-the-fly read depth and BAF visualization, CNV/CNA calling and analysis. Embedding into HTML pages and Jupiter Notebooks enables convenient remote data access and visualization simplifying interpretation and analysis of omics data.
                 </p>
-                <p><a href="https://igv.org/doc/igvjs/#tracks/CNVPytor/">Track Info</a></p>
+                <p><a href="https://igv.org/doc/igvjs/#tracks/CNVPytor/" target="_blank">Track Info</a></p>
             </div>
-
             <div class="tool">
-                <h3>GAL</h3>
-                <p>Genome Annotator Light(GAL) is a docker based package for genome analysis and data visualization. GAL integrated several existing tools and in-house programs inside a Docker Container for systematic analysis and visualization of genomes through web browser. GAL takes varieties of input types ranging from raw Fasta files to fully annotated files, processes them through a standard annotation pipeline and visualizes on a web browser. Comparative genomic analysis is performed automatically within a given taxonomic class. GAL creates interactive genome browser with clickable genomic feature tracks; local BLAST-able database; query page, on-fly downstream data analysis using EMBOSS etc</p>
-                <p><a href="https://github.com/computational-genomics-lab/GAL">[Link to GAL]</a></p>
+                <h3>GAL (Genome Annotator Light)</h3>
+                <p>Genome Annotator Light (GAL) is a Docker-based package for genome analysis and data visualization. GAL integrates several existing tools and in-house programs inside a Docker Container for systematic analysis and visualization of genomes through a web browser. GAL takes various input types, ranging from raw Fasta files to fully annotated files, processes them through a standard annotation pipeline, and visualizes them on a web browser. Comparative genomic analysis is performed automatically within a given taxonomic class. GAL creates an interactive genome browser with clickable genomic feature tracks, a local BLAST-able database, a query page, and on-the-fly downstream data analysis using EMBOSS etc.</p>
+                <p><a href="https://github.com/computational-genomics-lab/GAL" target="_blank">Learn more about GAL</a></p>
             </div>
         </section>
     </main>
