@@ -56,7 +56,8 @@ for rec in records:
     })
 
 # 🌐 Step 4: Generate HTML
-html_output = "<h2>My PubMed Publications</h2>\n<ul>\n"
+# html_output = "<h2>My PubMed Publications</h2>\n<ul>\n"
+html_output = ""
 for pub in publications:
     pubmed_url = f"https://pubmed.ncbi.nlm.nih.gov/{pub['pmid']}/"
     html_output += f"<li><strong>{pub['title']}</strong><br>"
